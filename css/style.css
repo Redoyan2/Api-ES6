@@ -1,0 +1,23 @@
+.div-class{
+    background-color:cadetblue;
+    border: 5px;
+    color:hsla(180, 14%, 7%, 0.925);
+    border-color:black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+}
+#countries-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-color: black;
+   
+}
+#details-btn{
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 7px;
+    font-size: 20px;
+}
