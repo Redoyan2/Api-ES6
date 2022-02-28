@@ -6,7 +6,7 @@ const showBtn = () => {
         .then(data => displaDetails(data))
 
 }
-showBtn();
+
 const displaDetails = (data) => {
     for (const country of data) {
         showCountries(country);
